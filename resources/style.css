@@ -56,10 +56,13 @@ header {
 }
 .tea-images {
   display: flex;
-  height: 200px;
-  width: 300px;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+.tea-images img {
+  display: flex;
+  height: 200px;
+  width: 300px;
   padding: 5px;
 }
